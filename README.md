@@ -4,8 +4,6 @@ A powerful web scraper for downloading course materials with anti-detection capa
 
 ## Features
 
-- **Anti-Detection**: Uses curl-cffi with browser impersonation to bypass bot detection and captcha challenges.
-- **TLS Fingerprinting**: Mimics real browser TLS signatures (Chrome, Firefox, Safari, Edge).
 - **Advanced Concurrency**:
   - Fully async implementation with httpx/aiohttp.
   - Thread-safe session management with connection pooling.
